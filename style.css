@@ -1,0 +1,46 @@
+h1{
+    color:cyan;
+}
+
+*{
+    /* border:  solid; */
+}
+
+.header{
+    border: solid;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+p , h2{
+    color: cyan;
+    text-align: center;
+}
+
+.Menu{
+    display: flex;
+    
+    background-color: cyan;
+}
+.items{
+   
+    
+    border: solid;
+}
+
+body{
+    background: linear-gradient(blue,red);
+}
